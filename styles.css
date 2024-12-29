@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Gergel';
+    src: url('fonts/Gergel.eot');
+    src: url('fonts/Gergel.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gergel.woff2') format('woff2'),
+        url('fonts/Gergel.woff') format('woff'),
+        url('fonts/Gergel.ttf') format('truetype'),
+        url('fonts/Gergel.svg#Gergel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('fonts/CoFoSans-Regular.eot');
+    src: url('fonts/CoFoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CoFoSans-Regular.woff2') format('woff2'),
+        url('fonts/CoFoSans-Regular.woff') format('woff'),
+        url('fonts/CoFoSans-Regular.ttf') format('truetype'),
+        url('fonts/CoFoSans-Regular.svg#CoFoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('fonts/CoFoSans-Medium.eot');
+    src: url('fonts/CoFoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CoFoSans-Medium.woff2') format('woff2'),
+        url('fonts/CoFoSans-Medium.woff') format('woff'),
+        url('fonts/CoFoSans-Medium.ttf') format('truetype'),
+        url('fonts/CoFoSans-Medium.svg#CoFoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'CoFo Sans';
+    color: #000;
+    background-color: #fcfcfc;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 138px;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main {
+    background-image: #eeef2b;
+    background-image: url(img/main.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    margin-top: 64px;
+    font-family: 'Gergel';
+    font-size: 70px;
+}
+
+.main-description {
+    margin-top: 172px;
+    font-size: 20px;
+    max-width: 300px;
+}
+
+.online {
+    background-color: #6B95C0;
+    padding: 50px;
+}
+
+.online h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Gergel';
+    padding-bottom: 72px;
+}
+
+.online-content {
+    display:flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.video {
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-content p {
+    margin-top: 26px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.map {
+    background-color: #eeef2b;
+    padding-top: 62px;
+}
+
+.map-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-title h2 {
+    font-size: 80px;
+    font-family: 'Gergel';
+}
+
+.map-right {
+    margin-top: 70px;
+    text-align: right;
+}
+
+.button {
+    background-color: #6b95c0;
+    padding: 20px 46px;
+    color: #000;
+    display: inline-block;
+}
+
+.map-button {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.map-hand {
+    margin-top: 71px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.map-block {
+    margin-left: -50px;
+}
+
+.merch {
+    background-color: #eeef2b;
+    background-image: url(img/back-blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+
+.merch-container {
+    margin: 0 auto;
+    max-width: 1050px;
+    text-align: center;
+}
+
+.merch-title {
+    text-align: center;
+    font-size: 128px;
+    font-family: 'Gergel';
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+
+.merch-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.merch-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.merch-item {
+    margin: 0 20px;
+}
+
+.merch-item img {
+    width: 100%;
+}
+
+.button.button-yellow {
+    background-color: #eeef2b;
+    margin-top: 20px;
+}
+
+.form {
+    background-image: url(img/form.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-content {
+    background-color: #d16285;
+    padding: 20px 40px;
+    width: 512px;
+    height: 100%;
+}
+
+.form-title {
+    font-size: 80px;
+    font-family: 'Gergel';
+    margin: 70px 0 50px 0;
+}
+
+.form-item p {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+.form input, .form textarea {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.form input {
+    width: 190px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.form-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-button {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+}
+
+.slick-arrow {
+    text-indent: -9999px;
+    border: 0;
+    width: 0;
+    height: 0;
+}
+
+.slick-prev{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.slick-next{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.slick-list {
+    margin-bottom: 49px;
+}

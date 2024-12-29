@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shu_shu</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <div class="header container">
+        <div class="logo"><img src="img/logo.svg"></div>
+        <div class="menu">
+            <a href="#main">О проекте</a>
+            <a href="#online">Онлайн выпуски</a>
+            <a href="#map">Карта</a>
+            <a href="#merch">Мерч</a>
+            <a href="#form">Сделать заказ</a>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <div class="main-content container">
+            <div class="main-title">о чём проект?</div>
+            <div class="main-description">«Шу-шу» это подкаст, в котором участниками являются сами улицы. Ведь кто как не они, знают все самые интересные истории и сплетни?</div>
+        </div>
+    </div>
+    <div class="online" id="online">
+        <div class="container">
+            <h1>онлайн-выпуски</h1>
+            <div class="online-content slider">
+                <div class="video">
+                    <img src="img/video.left.png">
+                    <p>Башни Кремля молчат, но все видят. Говорят, они строят заговор, чтобы захватить власть в городе. Но они, конечно, не признаются...</p>
+                </div>
+                <div class="video">
+                    <img src="img/video.right.png">
+                    <p>Сормовская улица рассказывает про начало работ над метро. Куда же идут деньги нижегородцев? </p>
+                </div>
+                <div class="video">
+                    <img src="img/video.left.png">
+                    <p>Башни Кремля молчат, но все видят. Говорят, они строят заговор, чтобы захватить власть в городе. Но они, конечно, не признаются...</p>
+                </div>
+                <div class="video">
+                    <img src="img/video.right.png">
+                    <p>Сормовская улица рассказывает про начало работ над метро. Куда же идут деньги нижегородцев? </p>
+                </div>
+                <div class="video">
+                    <img src="img/video.left.png">
+                    <p>Башни Кремля молчат, но все видят. Говорят, они строят заговор, чтобы захватить власть в городе. Но они, конечно, не признаются...</p>
+                </div>
+                <div class="video">
+                    <img src="img/video.right.png">
+                    <p>Сормовская улица рассказывает про начало работ над метро. Куда же идут деньги нижегородцев? </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map" id="map">
+        <div class="map-content container">
+            <div class="map-title">
+                <h2>Места<br>скопления<br>сплетен</h2>
+                <div class="map-hand"><img src="img/hand.png"></div>
+            </div>
+            <div class="map-right">
+                <div class="map-block"><img src="img/map.png"></div>
+                <a class="button map-button">Найти ближайшие</a>
+            </div>
+        </div>
+    </div>
+    <div class="merch" id="merch">
+        <div class="merch-container">
+            <div class="merch-title">Мерч</div>
+            <div class="merch-content slider">
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item.png">
+                </div>
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item2.png">
+                </div>
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item.png">
+                </div>
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item2.png">
+                </div>
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item.png">
+                </div>
+                <div class="merch-item">
+                    <div class="merch-header">
+                        <p>Шоппер</p>
+                        <p>3000 PУБ</p>
+                    </div>
+                    <img src="img/item2.png">
+                </div>
+            </div>
+            <a class="button button-yellow">Сделать заказ</a>
+        </div>
+    </div>
+    <div class="form" id="form">
+        <div class="container">
+            <div class="form-content">
+                <div class="form-title">форма</div>
+                <div class="form-line">
+                    <div class="form-item">
+                        <p>Имя</p>
+                        <input type="text">
+                    </div>
+                    <div class="form-item">
+                        <p>Фамилия</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="form-item">
+                        <p>Email</p>
+                        <input type="text">
+                    </div>
+                    <div class="form-item">
+                        <p>Дата мероприятия</p>
+                        <input type="text" >
+                    </div>
+                </div>
+                <div class="form-line">
+                    <textarea></textarea>
+                </div>
+                <div class="form-button">
+                    <a class="button button-yellow">Сделать заказ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container" id="contacts">
+        <div class="logo"><img src="img/logo.svg"></div>
+        <div class="socials">
+            <a href="#"><img src="img/icon-vk.svg"></a>
+            <a href="#"><img src="img/icon-yt.svg"></a>
+            <a href="#"><img src="img/icon-instagram.svg"></a>
+        </div>
+    </div>
+</body>
+</html>
